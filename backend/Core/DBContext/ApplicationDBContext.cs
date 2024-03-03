@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace backend.Core.DBContext;
 
+// create a new class that inherits from IdentityDbContext<ApplicationUser>, and add the DbSet properties for the Log and Message entities; also, override the OnModelCreating method to customize the tables when the ApplicationUser model is created.
 public class ApplicationDBContext : IdentityDbContext<ApplicationUser>
 {
   public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
