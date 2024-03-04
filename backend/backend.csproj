@@ -16,6 +16,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core/Interfaces/" />
-    <Folder Include="Core/Services/" />
   </ItemGroup>
 </Project>
