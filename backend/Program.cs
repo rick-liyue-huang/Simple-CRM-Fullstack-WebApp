@@ -21,8 +21,6 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
-
-
 // TODO: DEPENDENCY INJECTION
 
 // TODO: ADD IDENTITY
