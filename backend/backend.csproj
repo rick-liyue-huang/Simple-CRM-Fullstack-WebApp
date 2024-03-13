@@ -15,7 +15,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Core/Constants/" />
     <Folder Include="Core/Interfaces/" />
     <Folder Include="Core/Services/" />
   </ItemGroup>

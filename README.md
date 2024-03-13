@@ -6,6 +6,11 @@ This is a simple CRM (Customer Relationship Management) Fullstack WebApp, which 
 
 The backend parts is built using .Net Core 8, and it connect with the database hosting on the docker. the connection string is in the appsettings.json file.
 
+The entities in backend are:
+Log, Message, WebApplicationUser, and BaseEntity.
+
+Dtos are used to transfer data between the client and the server.
+
 ```json
 "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=crm_database;Trusted_Connection=false;TrustServerCertificate=True;User Id=sa;Password=SQLConnect1;"}
