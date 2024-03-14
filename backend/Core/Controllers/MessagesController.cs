@@ -1,6 +1,8 @@
-﻿namespace backend.Core.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
 
-public class MessageController
+namespace backend.Core.Controllers;
+
+public class MessagesController : ControllerBase
 {
 
 }
