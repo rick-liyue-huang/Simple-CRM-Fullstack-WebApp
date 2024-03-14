@@ -31,6 +31,7 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 // Inject the LogService
 builder.Services.AddScoped<ILogService, LogService>();
 builder.Services.AddScoped<IMessageService, MessageService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 
 // TODO: Add Identity
